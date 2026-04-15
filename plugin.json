@@ -1,0 +1,10 @@
+{
+  "id": "smart-te-admin",
+  "version": "1.0.0",
+  "description": "Smart T&E — Admin configuration portal",
+  "url": "https://your-admin-ui-url.com",
+  "appBehaviour": "web",
+  "auth": {
+    "type": "NONE"
+  }
+}

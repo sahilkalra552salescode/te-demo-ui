@@ -1,0 +1,36 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0a1628;
+  --bg2: #16213e;
+  --bg3: #0a2a3a;
+  --card: #1a2744;
+  --card2: #1e2d50;
+  --border: rgba(255,255,255,0.08);
+  --accent: #00d4aa;
+  --accent2: #3b82f6;
+  --danger: #ef4444;
+  --amber: #f59e0b;
+  --purple: #8b5cf6;
+  --text: #ffffff;
+  --text-muted: #8b9dc3;
+  --text-soft: #b0b8c1;
+  --radius: 12px;
+  --radius-sm: 8px;
+  --sidebar-w: 220px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+input, select, textarea, button {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
